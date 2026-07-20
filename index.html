@@ -1,128 +1,229 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luiz Bravo | Portfólio</title>
-    <style>
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --border-color: #30363d;
-            --text-main: #c9d1d9;
-            --text-muted: #8b949e;
-            --accent: #58a6ff;
-            --accent-green: #2ea44f;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-        header {
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 2rem;
-            margin-bottom: 2rem;
-        }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #f0f6fc; }
-        h2 { font-size: 1.5rem; color: var(--accent); margin-top: 2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
-        h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: #f0f6fc; }
-        p { margin: 0 0 1rem 0; color: var(--text-main); }
-        .tagline { font-size: 1.2rem; color: var(--text-muted); font-weight: 500; }
-        .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem; }
-        @media(min-width: 600px) { .grid { grid-template-columns: 1fr 1fr; } }
-        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 6px; padding: 1.5rem; }
-        .tech-box { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
-        .tech-tag { background: #21262d; border: 1px solid var(--border-color); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 2rem; font-size: 0.85rem; font-family: monospace; }
-        .list-unstyled { padding-left: 1.2rem; margin: 0; }
-        .list-unstyled li { margin-bottom: 0.5rem; }
-        .quote { font-style: italic; color: var(--text-muted); border-left: 3px solid var(--accent); padding-left: 1rem; margin: 2rem 0; }
-        .btn-contact { display: inline-block; background: var(--accent-green); color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-right: 0.5rem; font-size: 0.9rem; }
-        .btn-secondary { display: inline-block; background: #21262d; border: 1px solid var(--border-color); color: var(--text-main); padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
-        .btn-contact:hover { background: #2c974b; }
-        .btn-secondary:hover { background: #30363d; }
-        footer { margin-top: 3rem; text-align: center; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Luiz Bravo</h1>
-            <p class="tagline">Statistics, Artificial Intelligence, and Information Retrieval</p>
-            <p style="margin-top: 1rem; max-width: 700px;">
-                MSc student in Computer Science at São Paulo State University (UNESP) and hold a Bachelor's degree in Statistics and Data Science from the University of USP.
-            </p>
-            <div style="margin-top: 1.5rem;">
-                <a href="https://linkedin.com" target="_blank" class="btn-contact">LinkedIn</a>
-                <a href="https://medium.com" target="_blank" class="btn-secondary">Medium</a>
-                <a href="https://github.com/bravlui" target="_blank" class="btn-secondary">GitHub</a>
-            </div>
-        </header>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        <section>
-            <h2>Sobre Minha Pesquisa</h2>
-            <p>Minha investigação explora como sistemas inteligentes aprendem <strong>similaridade, contexto, incerteza e relacionamentos</strong>. Trabalho na interseção de Information Retrieval, Deep Metric Learning e Graph Neural Networks.</p>
-            
-            <h3>O que busco compreender:</h3>
-            <ul class="list-unstyled">
-                <li>Como a incerteza pode melhorar o aprendizado de representação?</li>
-                <li>De que forma o contexto pode ser incorporado ao aprendizado de similaridade?</li>
-                <li>Abordagens probabilísticas podem otimizar sistemas de ranqueamento e recuperação?</li>
-            </ul>
-        </section>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-        <section>
-            <h2>Projetos em Destaque</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Identificação de Microfósseis via IA</h3>
-                    <p>Pesquisa desenvolvida em parceria entre UNESP e PETROBRAS, aplicando Computer Vision e Graph Neural Networks para classificação de imagens científicas.</p>
-                </div>
-                <div class="card">
-                    <h3>Funções de Perda Contextuais</h3>
-                    <p>Desenvolvimento de novas abordagens de Deep Metric Learning probabilístico voltadas para recuperação de imagens refinadas (fine-grained).</p>
-                </div>
-                <div class="card">
-                    <h3>Benchmark de Amostragem em Grafos</h3>
-                    <p>Avaliação de estratégias de amostragem de grafos e seus impactos na preservação de estruturas de rede e desempenho analítico.</p>
-                </div>
-                <div class="card">
-                    <h3>Artigos & Ensaios</h3>
-                    <p>Escrita ativa sobre Inteligência Artificial e Autoria, Interdisciplinaridade, Especialização e os impactos da tecnologia na sociedade.</p>
-                </div>
-            </div>
-        </section>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>This is<br />
+						Massively</h1>
+						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-        <section>
-            <h2>Tecnologias & Ferramentas</h2>
-            <div class="tech-box">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">PyTorch Geometric</span>
-                <span class="tech-tag">Scikit-Learn</span>
-                <span class="tech-tag">TensorFlow</span>
-                <span class="tech-tag">R</span>
-                <span class="tech-tag">SQL</span>
-                <span class="tech-tag">LaTeX</span>
-            </div>
-        </section>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>
 
-        <div class="quote">
-            “As inovações mais interessantes raramente emergem de uma única disciplina. Elas surgem quando ideias de diferentes campos se encontram e se desafiam.”
-        </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-        <footer>
-            <p>📍 São Paulo, Brazil</p>
-            <p>&copy; 2026 • Luiz Bravo</p>
-        </footer>
-    </div>
-</body>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h2><a href="#">And this is a<br />
+									massive headline</a></h2>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Full Story</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
