@@ -4687,3 +4687,225 @@ input, select, textarea {
 		}
 
 	}
+
+/* Luiz Bravo portfolio */
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	#intro .eyebrow,
+	.section-label,
+	.project-field {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.75rem;
+		font-style: normal;
+		font-weight: 900;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+	#intro .eyebrow {
+		margin-bottom: 1rem;
+	}
+
+	.section-label,
+	.project-field {
+		color: #18bfef;
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+	#nav .links a {
+		padding-left: 1.4rem;
+		padding-right: 1.4rem;
+	}
+
+	.question-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1px;
+		margin-top: 3rem;
+		background: #eeeeee;
+		border: solid 1px #eeeeee;
+		text-align: left;
+	}
+
+	.question-grid p {
+		background: #ffffff;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 1.05rem;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 1.6;
+		margin: 0;
+		padding: 1.75rem;
+	}
+
+	.spotlight-section {
+		padding: 5rem 8rem;
+	}
+
+	.spotlight-section > .major {
+		margin: 0 0 3rem;
+		text-align: center;
+	}
+
+	.research-list article {
+		align-items: flex-start;
+		border-top: solid 2px #eeeeee;
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: 3rem 1fr;
+		padding: 2rem 0;
+	}
+
+	.research-list article:last-child {
+		border-bottom: solid 2px #eeeeee;
+	}
+
+	.research-list h3 {
+		font-size: 1.2rem;
+		margin-bottom: 0.6rem;
+	}
+
+	.research-list p {
+		margin: 0;
+	}
+
+	.research-number {
+		color: #18bfef;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.8rem;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		padding-top: 0.2rem;
+	}
+
+	.section-heading {
+		border-top: solid 2px #eeeeee;
+		padding: 5rem 4rem 3rem;
+		text-align: center;
+	}
+
+	.section-heading h2 {
+		margin: 0;
+	}
+
+	.project-posts article {
+		text-align: left;
+	}
+
+	.project-posts article header {
+		text-align: center;
+	}
+
+	.project-posts .image {
+		cursor: default;
+	}
+
+	.writing-section {
+		align-items: center;
+		border-top: solid 2px #eeeeee;
+		display: grid;
+		gap: 5rem;
+		grid-template-columns: 1.15fr 0.85fr;
+		padding: 5rem 8rem;
+	}
+
+	.writing-topics {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.writing-topics li {
+		border-top: solid 1px #dddddd;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.9rem;
+		font-weight: 900;
+		letter-spacing: 0.075em;
+		padding: 1rem 0;
+		text-transform: uppercase;
+	}
+
+	.writing-topics li:last-child {
+		border-bottom: solid 1px #dddddd;
+	}
+
+	.technology-strip {
+		background: #1e252d;
+		color: #ffffff;
+		padding: 3rem 5rem;
+		text-align: center;
+	}
+
+	.technology-strip h2 {
+		color: #ffffff;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.technology-strip p {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.9rem;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		margin: 0;
+	}
+
+	.technology-strip span {
+		color: #18bfef;
+		padding: 0 0.35rem;
+	}
+
+	#footer .contact-intro h2 {
+		margin-bottom: 1rem;
+	}
+
+	#footer .contact-intro .section-label {
+		margin-bottom: 0.75rem;
+	}
+
+	#footer .contact-intro p {
+		max-width: 32rem;
+	}
+
+	@media screen and (max-width: 980px) {
+		.spotlight-section,
+		.writing-section {
+			padding: 4rem;
+		}
+
+		.writing-section {
+			gap: 3rem;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		.desktop-only {
+			display: none;
+		}
+
+		.question-grid,
+		.writing-section {
+			grid-template-columns: 1fr;
+		}
+
+		.spotlight-section,
+		.writing-section {
+			padding: 3rem 2rem;
+		}
+
+		.section-heading {
+			padding: 3rem 2rem 2rem;
+		}
+
+		.writing-section {
+			gap: 2.5rem;
+		}
+
+		.technology-strip {
+			padding: 2.5rem 2rem;
+		}
+	}
