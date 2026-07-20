@@ -27,14 +27,24 @@ Python · PyTorch · PyTorch Geometric · Scikit-Learn · TensorFlow · R · SQL
 
 ## Publish with GitHub Pages
 
-1. Create a repository on GitHub. Use the name `bravlui.github.io` for a personal homepage, or any other name for a project site.
-2. Upload all files from this folder to the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and the `/ (root)` folder, then save.
-6. After GitHub finishes publishing, open `https://bravlui.github.io/` (personal homepage) or `https://bravlui.github.io/REPOSITORY-NAME/` (project site).
+1. Create a **public** repository on GitHub. Use the exact name `bravlui.github.io` for a personal homepage, or another name for a project site.
+2. Upload **the contents of this folder** to the repository root. On GitHub, `index.html`, `assets`, `images`, and `.github` must appear immediately on the repository's first screen—not inside another `html5up-massively` folder.
+3. Confirm that the default branch is named `main`.
+4. In the repository, open **Settings → Pages**.
+5. Under **Build and deployment → Source**, choose **GitHub Actions**.
+6. Open the repository's **Actions** tab and wait for **Deploy website to GitHub Pages** to finish with a green check.
+7. Use the URL displayed by the completed deployment:
+   - `https://bravlui.github.io/` if the repository is named exactly `bravlui.github.io`;
+   - `https://bravlui.github.io/REPOSITORY-NAME/` for any other repository name.
 
 All asset paths are relative, so the site works in either GitHub Pages format.
+
+### If GitHub still shows 404
+
+- Do not open `https://bravlui.github.io/` when the repository has another name. Include the repository name in the URL.
+- Make sure `index.html` is at the published root and uses this exact lowercase spelling.
+- Check the **Actions** tab before testing the address. A failed or pending deployment cannot serve the site.
+- If the repository is private, confirm that your GitHub plan supports private Pages sites or make the repository public.
 
 ## Contact
 
