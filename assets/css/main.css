@@ -298,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #3f9d72 !important;
 		}
 
 	strong, b {
@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #3f9d72;
+			color: #3f9d72 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #3f9d72;
 			}
 
 /* Form */
@@ -2491,7 +2491,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #3f9d72;
 		}
 
 	select {
@@ -2526,7 +2526,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #3f9d72;
 	}
 
 	::-webkit-input-placeholder {
@@ -2890,7 +2890,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #3f9d72;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2898,7 +2898,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #3f9d72;
 	}
 
 /* Section/Article */
@@ -3197,14 +3197,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #3f9d72 !important;
+			border-color: #3f9d72;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #3f9d72;
 			}
 
 		.pagination a.active {
@@ -3324,7 +3324,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3f9d72 !important;
 			}
 
 		#intro strong, #intro b {
@@ -3363,8 +3363,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #3f9d72;
+				color: #3f9d72 !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3382,7 +3382,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #3f9d72;
 				}
 
 		#intro h1 {
@@ -3533,7 +3533,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3f9d72 !important;
 			}
 
 		#header strong, #header b {
@@ -3577,8 +3577,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #3f9d72 !important;
+				color: #3f9d72 !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3632,7 +3632,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #3f9d72;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3640,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #3f9d72;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3654,7 +3654,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3f9d72 !important;
 			}
 
 		#nav strong, #nav b {
@@ -3730,7 +3730,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #3f9d72 !important;
 						}
 
 		#nav ul.icons {
@@ -3974,7 +3974,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3f9d72 !important;
 			}
 
 		#footer strong, #footer b {
@@ -4017,8 +4017,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #3f9d72;
+				color: #3f9d72 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4036,7 +4036,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #3f9d72;
 				}
 
 		#footer label {
@@ -4056,7 +4056,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #3f9d72;
 			}
 
 		#footer select {
@@ -4091,7 +4091,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #3f9d72;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4119,7 +4119,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #3f9d72;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4127,7 +4127,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #3f9d72;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4167,14 +4167,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #3f9d72 !important;
+				border-color: #3f9d72;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #3f9d72;
 				}
 
 			#footer .pagination a.active {
@@ -4411,7 +4411,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3f9d72 !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4711,7 +4711,7 @@ input, select, textarea {
 
 	.section-label,
 	.project-field {
-		color: #18bfef;
+		color: #3f9d72;
 		display: block;
 		margin-bottom: 1rem;
 	}
@@ -4719,6 +4719,29 @@ input, select, textarea {
 	#nav .links a {
 		padding-left: 1.4rem;
 		padding-right: 1.4rem;
+	}
+
+	.about-grid {
+		align-items: center;
+		display: grid;
+		gap: 4rem;
+		grid-template-columns: 1.3fr 0.7fr;
+	}
+
+	.about-grid > header.major {
+		margin: 0;
+	}
+
+	.about-portrait {
+		border-radius: 6px;
+		box-shadow: 0 1.5rem 3rem rgba(33, 41, 49, 0.14);
+		overflow: hidden;
+	}
+
+	.about-portrait img {
+		display: block;
+		height: auto;
+		width: 100%;
 	}
 
 	.question-grid {
@@ -4774,7 +4797,7 @@ input, select, textarea {
 	}
 
 	.research-number {
-		color: #18bfef;
+		color: #3f9d72;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
@@ -4802,6 +4825,37 @@ input, select, textarea {
 
 	.project-posts .image {
 		cursor: default;
+	}
+
+	.portfolio-link {
+		margin-top: 1.25rem !important;
+	}
+
+	.portfolio-link .button.small {
+		font-size: 0.75rem;
+		padding: 0 1.5rem;
+		height: 2.75rem;
+		line-height: 2.75rem;
+	}
+
+	.portfolio-more {
+		margin: 2rem 0 0;
+		text-align: center;
+	}
+
+	.portfolio-more a {
+		border-bottom: solid 1px transparent;
+		color: #3f9d72;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.85rem;
+		font-weight: 900;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		transition: border-color 0.2s ease-in-out;
+	}
+
+	.portfolio-more a:hover {
+		border-bottom-color: #3f9d72;
 	}
 
 	.writing-section {
@@ -4855,7 +4909,7 @@ input, select, textarea {
 	}
 
 	.technology-strip span {
-		color: #18bfef;
+		color: #3f9d72;
 		padding: 0 0.35rem;
 	}
 
@@ -4880,6 +4934,11 @@ input, select, textarea {
 		.writing-section {
 			gap: 3rem;
 		}
+
+		.about-grid {
+			gap: 2.5rem;
+			grid-template-columns: 1fr 0.8fr;
+		}
 	}
 
 	@media screen and (max-width: 736px) {
@@ -4888,8 +4947,18 @@ input, select, textarea {
 		}
 
 		.question-grid,
-		.writing-section {
+		.writing-section,
+		.about-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.about-grid {
+			gap: 2rem;
+		}
+
+		.about-portrait {
+			max-width: 16rem;
+			order: -1;
 		}
 
 		.spotlight-section,
