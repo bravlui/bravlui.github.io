@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Luiz Bravo is a Computer Science researcher working at the intersection of statistics, artificial intelligence, information retrieval, graph neural networks, and deep metric learning." />
 		<meta name="author" content="Luiz Bravo" />
-		<meta name="theme-color" content="#1e252d" />
+		<meta name="theme-color" content="#f4f8f6" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Luiz Bravo | Statistics, AI &amp; Information Retrieval" />
 		<meta property="og:description" content="Research on similarity, context, uncertainty, and relationships in intelligent systems." />
@@ -116,35 +116,52 @@
 					<span class="section-label">Selected work</span>
 					<h2>Featured projects</h2>
 				</header>
-				<section class="posts project-posts portfolio-posts">
+				<section class="portfolio-list">
 					<article>
-						<header>
-							<span class="project-field">Computer Vision · GNNs</span>
-							<h2>Microfossil Identification<br />using AI</h2>
-						</header>
-						<div class="image fit"><img src="images/pic02.jpg" alt="Abstract close-up representing scientific image analysis" /></div>
-						<p>Research developed in partnership between UNESP and PETROBRAS, applying Computer Vision and Graph Neural Networks to scientific image classification.</p>
+						<div class="portfolio-list-head">
+							<span class="project-field">Information Retrieval · Fairness</span>
+							<h3>Query Fairness Estimation Under Demographic Data Scarcity</h3>
+						</div>
+						<p>Experimental pipeline evaluating Query Fairness Estimation methods (Naive@k, CC, PACC, KDEy) under low availability of demographic labels, extending Jaenich et al. (2026) to correction pools of 100–10,000 labeled documents over 162,200 documents and 25 queries from trec-fair/2022. Proposes dRAE, a rank-discounted extension of RAE, and shows that recalibrating the sensitive-attribute classifier via temperature scaling cuts KDEy's error from 0.792 to 0.094.</p>
+						<ul class="actions portfolio-link">
+							<li><a href="https://github.com/bravlui/query-fairness-escassez-dados" class="button icon brands fa-github small" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+						</ul>
 					</article>
 					<article>
-						<header>
-							<span class="project-field">Deep Learning</span>
-							<h2>Predictive Maintenance<br />with Deep Learning</h2>
-						</header>
-						<div class="image fit"><img src="images/pic03.jpg" alt="Abstract geometric forms representing a deep learning model" /></div>
-						<p>Coursework for the Deep Learning discipline of UNESP's Graduate Program in Computer Science, applying deep learning to predictive maintenance.</p>
+						<div class="portfolio-list-head">
+							<span class="project-field">Computer Vision · GNNs</span>
+							<h3>Microfossil Identification using AI</h3>
+						</div>
+						<p>Research developed in partnership between UNESP and PETROBRAS, applying Computer Vision and Graph Neural Networks to the automatic classification of microfossils in scientific imaging.</p>
+					</article>
+					<article>
+						<div class="portfolio-list-head">
+							<span class="project-field">Network Science</span>
+							<h3>Graph Sampling — Preserving Network Structure Under Subsampling</h3>
+						</div>
+						<p>Systematic study of six network sampling methods across three classic synthetic graph models (Erdős–Rényi, Barabási–Albert, Watts–Strogatz) and two network sizes, evaluating how well each method preserves the original topology using KL, JS, Wasserstein, and KS distance metrics. Coursework for Complex Networks and Dynamic Processes (ICMC-USP).</p>
+						<ul class="actions portfolio-link">
+							<li><a href="https://github.com/bravlui/graph_sampling_project" class="button icon brands fa-github small" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+						</ul>
+					</article>
+					<article>
+						<div class="portfolio-list-head">
+							<span class="project-field">Deep Learning · Full-stack</span>
+							<h3>Predictive Maintenance Chatbot</h3>
+						</div>
+						<p>Full-stack project combining a FastAPI backend, a Next.js frontend, and a machine learning training pipeline into an intelligent chatbot for predictive maintenance analysis. Coursework for the Deep Learning discipline of UNESP's Graduate Program in Computer Science.</p>
 						<ul class="actions portfolio-link">
 							<li><a href="https://github.com/bravlui/Deep_Learning_ManutencaoPreditiva" class="button icon brands fa-github small" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
 						</ul>
 					</article>
 					<article>
-						<header>
-							<span class="project-field">Network Science</span>
-							<h2>Graph Sampling<br />Benchmark</h2>
-						</header>
-						<div class="image fit"><img src="images/pic04.jpg" alt="Connected structures representing a complex network" /></div>
-						<p>Coursework for Complex Networks and Dynamic Processes (ICMC-USP), evaluating graph sampling strategies and their impact on preserving network structure.</p>
+						<div class="portfolio-list-head">
+							<span class="project-field">Statistics · Data Mining</span>
+							<h3>Statistical Data Mining</h3>
+						</div>
+						<p>Coursework for SME0878 — Statistical Data Mining (USP), applying statistical data mining techniques to a real dataset.</p>
 						<ul class="actions portfolio-link">
-							<li><a href="https://github.com/bravlui/graph_sampling_project" class="button icon brands fa-github small" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+							<li><a href="https://github.com/bravlui/SME0878_StatisticalDataMining" class="button icon brands fa-github small" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
 						</ul>
 					</article>
 				</section>
