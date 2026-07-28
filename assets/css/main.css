@@ -5004,3 +5004,37 @@ input, select, textarea {
 			margin: 0;
 		}
 	}
+
+	.language-switcher {
+		align-items: center;
+		display: flex !important;
+		gap: 0.35rem;
+		height: 100%;
+		margin-right: 0.4rem;
+	}
+
+	.language-switcher button {
+		background: transparent;
+		border: 0;
+		box-shadow: none;
+		color: inherit;
+		cursor: pointer;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.75rem;
+		font-weight: 900;
+		height: auto;
+		letter-spacing: 0.075em;
+		line-height: 1;
+		padding: 0;
+	}
+
+	.language-switcher button:hover,
+	.language-switcher button:focus {
+		color: #18bfef !important;
+	}
+
+	.language-switcher button[aria-pressed="true"] {
+		color: #18bfef;
+		text-decoration: underline;
+		text-underline-offset: 0.25rem;
+	}
