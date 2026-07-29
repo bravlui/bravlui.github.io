@@ -48,7 +48,7 @@ All asset paths are relative, so the site works in either GitHub Pages format.
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/luiz-gustavo-bravo)
+- [LinkedIn](https://www.linkedin.com/in/luizgustavo-bravo)
 - [Medium](https://medium.com/@luizgustavobravo)
 - [GitHub](https://github.com/bravlui)
 
