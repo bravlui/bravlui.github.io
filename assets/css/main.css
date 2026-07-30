@@ -4818,7 +4818,11 @@ input, select, textarea {
 	}
 
 	.portfolio-list article {
+		align-items: start;
 		border-bottom: solid 2px #eeeeee;
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: minmax(0, 1.45fr) minmax(15rem, 0.65fr);
 		padding: 2.5rem 0;
 		text-align: left;
 	}
@@ -4840,9 +4844,47 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	.portfolio-list article p {
+	.portfolio-main > p {
 		margin: 0;
 		max-width: 46rem;
+	}
+
+	.project-applications {
+		background: #f4f8f6;
+		border-top: solid 3px #3f9d72;
+		padding: 1.5rem 1.75rem;
+	}
+
+	.applications-label {
+		color: #2f7d5c;
+		display: block;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.7rem;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		margin-bottom: 0.35rem;
+		text-transform: uppercase;
+	}
+
+	.project-applications h4 {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.project-applications ul {
+		margin: 0;
+		padding-left: 1.1rem;
+	}
+
+	.project-applications li {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.85rem;
+		line-height: 1.5;
+		margin-bottom: 0.55rem;
+	}
+
+	.project-applications li:last-child {
+		margin-bottom: 0;
 	}
 
 	.portfolio-link {
@@ -5002,6 +5044,11 @@ input, select, textarea {
 
 		.portfolio-list {
 			margin: 0;
+		}
+
+		.portfolio-list article {
+			gap: 2rem;
+			grid-template-columns: 1fr;
 		}
 	}
 
